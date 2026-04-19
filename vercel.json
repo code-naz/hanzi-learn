@@ -23,5 +23,5 @@
             "dest": "/api/index.php"
         }
     ],
-    "installCommand": "mkdir -p storage/framework/{sessions,views,cache} && composer install"
+    "installCommand": "composer install"
 }

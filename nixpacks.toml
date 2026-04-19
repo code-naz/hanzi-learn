@@ -1,0 +1,3 @@
+[build]
+installCommand = 'composer install'
+buildCommand = 'echo "Skipping build phase"'

@@ -33,9 +33,6 @@
         }
     },
     "scripts": {
-        "post-install-cmd": [
-            "mkdir -p storage/framework/sessions storage/framework/views storage/framework/cache"
-        ],
         "setup": [
             "composer install",
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
